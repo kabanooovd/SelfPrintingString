@@ -5,6 +5,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-image: url("https://catherineasquithgallery.com/uploads/posts/2021-02/1612508211_130-p-kapli-dozhdya-na-serom-fone-191.jpg");
+  color: snow;
 }
 
 code {

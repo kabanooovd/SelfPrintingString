@@ -1,26 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {SelfPrintingString} from "./components/SelfPrintingString/SelfPrintingString";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    //      word: string
+    //      seconds: number
+
+    return (
+
+        <div className="App">
+            <SelfPrintingString seconds={0.05} word={'welcome to my page, my dear guest'}/>
+        </div>
+    );
 }
 
 export default App;
